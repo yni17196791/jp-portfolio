@@ -4,7 +4,7 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
-import Yearsold from './Yearsold.js'
+import Age from './Age.js'
 
 class Main extends React.Component {
 
@@ -35,7 +35,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
-          <Yearsold name={"にわ よしき"} year={1990} month={11} date={24} />
+          <Age name={"にわ よしき"} year={1990} month={11} date={24} />
           <p>
             
           </p>
@@ -51,7 +51,7 @@ class Main extends React.Component {
         >
           <h2 className="major">アプリ</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={pic02} alt="" />
           </span>
           <p>
           </p>
