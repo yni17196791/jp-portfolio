@@ -33,7 +33,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">経歴</h2>
+          <h2 className="major">自己紹介</h2>
           <Age name={"にわ よしき"} year={1990} month={11} date={24} />
           <p>
             
@@ -116,7 +116,7 @@ class Main extends React.Component {
             <img src={pic05} alt="" />
           </span>
           <p>
-            東京カレンダー (計 8 作)
+            東京カレンダーWEB (計 8 作)
           </p>
           <p>詳細につきましてはお問い合わせください。</p>
           {close}

@@ -31,7 +31,7 @@ class Age extends Component {
   render() {
     return (
         <div className="Age">
-        <p>Marketer, Writer, Developer</p>
+        <p>JOBs: Marketer, Writer, Developer</p>
         <p>{this.props.name}<br />
         {this.props.year} 年 {this.props.month} 月 {this.props.date} 日 生まれ ({this.myBirthday(this.props)} 歳)</p>
         <p>理学士(化学)　東北大学</p>

@@ -14,7 +14,7 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('biograph')}}>経歴</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('biograph')}}>自己紹介</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('webdev')}}>Web 制作</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('pictogram')}}>ピクトグラム制作</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('translation')}}>翻訳・カタログ制作</a></li>
