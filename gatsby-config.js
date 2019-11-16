@@ -1,8 +1,9 @@
 module.exports = {
+  pathPrefix: "/jp-portfolio",
   siteMetadata: {
-    title: "Gatsby Starter - Dimension V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    title: "yni17196791-jp-portfolio",
+    author: "Yoshiki Niwa",
+    description: "Portfolio site of yni17196791"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
