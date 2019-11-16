@@ -15,10 +15,10 @@ const Header = (props) => (
         <nav>
             <ul>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('biograph')}}>経歴</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('app')}}>アプリ</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('webdev')}}>Web 制作</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('pictogram')}}>ピクトグラム制作</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('translation')}}>翻訳・カタログ制作</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('writing')}}>ライティング</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('translation')}}>翻訳</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>お問い合わせ</a></li>
             </ul>
         </nav>
