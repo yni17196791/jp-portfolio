@@ -71,11 +71,12 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">ピクトグラム制作(Photoshop, Illustrator)</h2>
+          <h2 className="major">ピクトグラム制作</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>自然現象・化学反応などを一目見てわかるよう易しく表現します。</p>
+          <p>(Photoshop, Illustrator)</p>
           {close}
         </article>
 
