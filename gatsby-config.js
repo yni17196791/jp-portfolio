@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "/jp-portfolio",
   siteMetadata: {
-    title: "yni17196791-jp-portfolio",
+    title: "yni77844041-jp-portfolio",
     author: "Yoshiki Niwa",
-    description: "Portfolio site of yni17196791"
+    description: "Portfolio site of yni77844041"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
