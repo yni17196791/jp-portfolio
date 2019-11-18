@@ -133,18 +133,6 @@ class Main extends React.Component {
           <h2 className="major">お問い合わせ</h2>
           <p>お問い合わせ、お仕事のご依頼等はこちらから。</p>
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfrqesyCRi_gKiW9U3UUOmkx9ztg040BaDfyFgGBaRGa83lVQ/viewform?embedded=true" width="640" height="844" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
-          <h2 className="major">SNS経由はこちら</h2>
-          <ul className="icons">
-            <li>
-              <a
-                href="https://twitter.com/yni17196791"
-                target="_blank"
-                className="fab fa-twitter"
-              >
-                <span className="label" style={{ display: 'none' }}>Twitter</span>
-              </a>
-            </li>
-          </ul>
           {close}
         </article>
       </div>
@@ -163,6 +151,18 @@ Main.propTypes = {
 
 export default Main
 
+// <h2 className="major">SNS経由はこちら</h2>
+// <ul className="icons">
+  // <li>
+    // <a
+      // href="https://twitter.com/"
+      // target="_blank"
+      // className="fab fa-twitter"
+    // >
+      // <span className="label" style={{ display: 'none' }}>Twitter</span>
+    // </a>
+  // </li>
+// </ul>
 // <ul>
 // <li>
   // <a href="https://codebushi.com" className="fab fa-facebook">
