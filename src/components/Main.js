@@ -34,9 +34,21 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">自己紹介</h2>
-          <Age name={"にわ よしき"} year={1990} month={11} date={24} />
+
           <p>
-            
+            JOBs: Developer, Writer, Web Designer
+          </p>
+          <p>
+          <Age name={"にわ よしき"} year={1990} month={11} date={24} />
+          </p>
+          <p>
+          理学士(化学)　東北大学
+          </p>
+          <p>
+          前職にて、持ち前のフットワークの軽さを生かし全社のマーケティングに関する業務を担当。
+          展示用ポスターのデザイン、カタログ・フライヤー作成などに始まり自社HPのリニューアルまで行っていました。
+          Webページに関しては、フルスタックで対応可能です。
+          WordPressの制作経験もありますので、お気軽にお尋ねください。
           </p>
           {close}
         </article>
@@ -56,13 +68,7 @@ class Main extends React.Component {
             <img src={pic01} alt="株式会社ビジコムジャパン" />
           </span>
           <p>
-            CIPPS 国際公共政策センター (Wordpress)
-          </p>
-          <span className="image main">
-            <img src={pic02} alt="CIPPS 国際公共政策センター" />
-          </span>
-          <p>
-            クロドロン酸リポソーム海外向け商品ページ
+            CIPPS 国際公共政策センター <a href="https://www.cipps.org/">HP</a>(Wordpress)
           </p>
           <span className="image main">
             <img src={pic02} alt="CIPPS 国際公共政策センター" />
@@ -125,7 +131,7 @@ class Main extends React.Component {
           <p>
             東京カレンダーWEB にて連載中 (計 14 作)
           </p>
-           <p>
+          <p>
             メディアライティング、タイアップライティングもご好評をいただいております。
           </p>
           <p>詳細につきましてはお問い合わせください。</p>
