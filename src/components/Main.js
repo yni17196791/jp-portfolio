@@ -56,7 +56,13 @@ class Main extends React.Component {
             <img src={pic01} alt="株式会社ビジコムジャパン" />
           </span>
           <p>
-            CIPPS 国際公共政策センター (In Process, Wordpress)
+            CIPPS 国際公共政策センター (Wordpress)
+          </p>
+          <span className="image main">
+            <img src={pic02} alt="CIPPS 国際公共政策センター" />
+          </span>
+          <p>
+            クロドロン酸リポソーム海外向け商品ページ
           </p>
           <span className="image main">
             <img src={pic02} alt="CIPPS 国際公共政策センター" />
@@ -93,9 +99,9 @@ class Main extends React.Component {
           </span>
           <p>
             <ul>
-              <li>ドイツ 化学メーカー(研究用試薬) 各種カタログ</li>
-              <li>ドイツ 細胞関連製品メーカー (研究用試薬) 各種カタログ</li>
-              <li>アメリカ 化合物ライブラリー専門企業 各種製品カタログ</li>
+              <li>ドイツ 化学メーカー(研究用試薬) 各種カタログ・マニュアル</li>
+              <li>ドイツ 細胞関連製品メーカー (研究用試薬) 各種カタログ・マニュアル</li>
+              <li>アメリカ 化合物ライブラリー専門企業 各種製品カタログ・マニュアル</li>
             </ul>
           </p>
           <p>
@@ -117,7 +123,10 @@ class Main extends React.Component {
             <img src={pic05} alt="" />
           </span>
           <p>
-            東京カレンダーWEB (計 8 作)
+            東京カレンダーWEB にて連載中 (計 14 作)
+          </p>
+           <p>
+            メディアライティング、タイアップライティングもご好評をいただいております。
           </p>
           <p>詳細につきましてはお問い合わせください。</p>
           {close}
