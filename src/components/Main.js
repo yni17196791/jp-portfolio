@@ -34,20 +34,13 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">自己紹介</h2>
-
-          <p>
-            JOBs: Developer, Writer, Web Designer
-          </p>
           <p>
           <Age name={"にわ よしき"} year={1990} month={11} date={24} />
           </p>
           <p>
-          理学士(化学)　東北大学
-          </p>
-          <p>
-          前職にて、持ち前のフットワークの軽さを生かし全社のマーケティングに関する業務を担当。
-          展示用ポスターのデザイン、カタログ・フライヤー作成などに始まり自社HPのリニューアルまで行っていました。
-          Webページに関しては、フルスタックで対応可能です。
+          前職の専門商社にて、持ち前のフットワークの軽さを生かし全社のマーケティングに関する業務を担当。<br />
+          展示用ポスターのデザイン、カタログ・フライヤー作成などに始まり自社HPのリニューアルまで行っていました。<br />
+          Webページに関しては、フルスタックで対応可能です。<br />
           WordPressの制作経験もありますので、お気軽にお尋ねください。
           </p>
           {close}
@@ -68,7 +61,7 @@ class Main extends React.Component {
             <img src={pic01} alt="株式会社ビジコムジャパン" />
           </span>
           <p>
-            CIPPS 国際公共政策センター <a href="https://www.cipps.org/">HP</a>(Wordpress)
+            CIPPS 国際公共政策センター <a href="https://www.cipps.org/">HP</a> (Wordpress)
           </p>
           <span className="image main">
             <img src={pic02} alt="CIPPS 国際公共政策センター" />
@@ -109,6 +102,9 @@ class Main extends React.Component {
               <li>ドイツ 細胞関連製品メーカー (研究用試薬) 各種カタログ・マニュアル</li>
               <li>アメリカ 化合物ライブラリー専門企業 各種製品カタログ・マニュアル</li>
             </ul>
+          </p>
+          <p>
+            他多数。
           </p>
           <p>
             内容につきまして、公開できないものがございます。<br />
